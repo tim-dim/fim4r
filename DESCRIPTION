@@ -1,0 +1,22 @@
+Package: fim4r
+Version: 1.4
+Date: 2016-10-15
+Title: Frequent Item Set Mining for R
+Authors@R: c(person("Christian", "Borgelt", role = c("aut", "cre"),
+		     email = "christian@borgelt.net"))
+Author: Christian Borgelt [aut, cre]
+Maintainer: Christian Borgelt <christian@borgelt.net>
+Depends: R (>= 3.0.0)
+Description: Frequent Item Set Mining (FIM) and Association Rule
+  Induction are among the best known and most popular data mining
+  methods. Originally developed for market basket analysis, they
+  are used nowadays for almost any task that requires discovering
+  regularities between (nominal) variables. This package contains
+  implementations of various frequent item set mining and association
+  rule induction algorithms, including Apriori, Eclat, FP-growth,
+  SaM, RElim, Carpenter and IsTa. In addition, it offers functionality
+  for pattern spectrum filtering (PSF) and pattern set reduction (PSR),
+  which aim at filtering out statistically significant patterns as
+  well as removing induced spurious patterns.
+License: MIT
+URL: http://www.borgelt.net/fim4r.html
