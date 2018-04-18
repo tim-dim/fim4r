@@ -40,7 +40,7 @@
 #ifndef PSP_ESTIM
 #define PSP_ESTIM
 #endif
-#include "sigint.h"
+/*-#include "sigint.h"--*/
 #include "report.h"
 #include "apriori.h"
 #include "eclat.h"
